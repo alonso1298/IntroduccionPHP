@@ -5,6 +5,7 @@ $nombre = 'Juan';
 
 echo $nombre;
 var_dump($nombre);
+echo '<br>';
 
 //En PHP podemos tener varibales que inicien o finalicen con un guion bajo 
 $_nombre = 'Alonso';
@@ -15,6 +16,7 @@ $_nombre = 'Sagrero';
 define('constante', 'Este es el valor de la constante');
 //Estas variables se imprimen diferente, se hace sin el signo $
 echo constante;
+echo '<br>';
 
 //Tambien se pueden crear constantes similar a JS pero no es tan utilizada
 const constante2 = 'Hola2';
