@@ -26,7 +26,7 @@ array_unshift($carrito, 'Smart Watch');
 //la otra forma de indicar un arreglo es con la funcion array
 $clientes = array('Cliente 1', 'Cliente 2', 'Cliente 3');
 
-echo '<pre>'; // Utilizamos esta etiqueta para mejorar el formato del arreglo
+echo '<pre>'; 
 var_dump($clientes);
 echo '<pre>';
 echo '<br/>';
