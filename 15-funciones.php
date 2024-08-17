@@ -15,7 +15,7 @@ function resta(int $num1 = 0, int $num2 = 0){
     echo $num1 - $num2;
 }
 
-resta();
+resta(num2: 6, num1: 3); // Podemos agregar argumentos con nombre
 echo '<br>';
 
 include 'includes/footer.php';
